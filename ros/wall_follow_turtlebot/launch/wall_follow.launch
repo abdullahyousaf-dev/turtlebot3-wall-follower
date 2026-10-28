@@ -1,0 +1,7 @@
+<launch>
+  <arg name="controller" default="v1" />
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+  <node pkg="wall_follow_turtlebot" type="wall_follow.py" name="wall_follower" output="screen">
+    <param name="controller" value="$(arg controller)" />
+  </node>
+</launch>

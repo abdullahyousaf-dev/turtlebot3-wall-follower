@@ -1,0 +1,18 @@
+{
+  "v1": {
+    "right_wall_error_cm": 28.9,
+    "collisions": 0,
+    "min_clearance_m": 0.041,
+    "path_length_m": 26.4,
+    "maze_coverage": 0.15,
+    "time_0.3_to_0.7m_from_wall": 0.4
+  },
+  "v2": {
+    "right_wall_error_cm": 8.7,
+    "collisions": 0,
+    "min_clearance_m": 0.2,
+    "path_length_m": 27.4,
+    "maze_coverage": 0.36,
+    "time_0.3_to_0.7m_from_wall": 1.0
+  }
+}
